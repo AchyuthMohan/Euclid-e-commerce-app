@@ -3,12 +3,14 @@ h1{
     width: 100%;
 }
 .items{
-    /* display: flex;
-    padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    display: flex;
+    /* padding: 20px; */
+    
+    /* margin-left: 2px; */
+    /* overflow-y: hidden; */
     height: 100%;
-    width: 100%; */
+    padding-top: 5%;
+    width: 100%;
 
 }
 .description{
@@ -18,4 +20,16 @@ h1{
 img{
     width: 150px ;
     height: 150px ;
+}
+.products{
+    margin-left:-101%;
+    overflow-x: scroll;
+    display: flex;
+    /* padding: 20px; */
+    
+    /* margin-left: 2px; */
+    /* overflow-y: hidden; */
+    height: 100%;
+    padding-top: 7%;
+    width: 100%;
 }

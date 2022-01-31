@@ -3,7 +3,11 @@ import Row from '../../components/Row/Row';
 
 const Home = () => {
   return <div>
-      <Row />
+      <Row category='Mobile Phones'/>
+      <Row category='Groceries'/>
+      <Row category='Books'/>
+      <Row category='Sports'/>
+
   </div>;
 };
 
