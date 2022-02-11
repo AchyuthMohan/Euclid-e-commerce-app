@@ -22,9 +22,13 @@ img{
     height: 150px ;
 }
 .products{
-    margin-left:-101%;
-    overflow-x: scroll;
+    margin-left:-65%;
+    /* overflow-x: scroll; */
     display: flex;
+   
+
+    /* margin: 0 auto; */
+    /* margin-left: 50%; */
     /* padding: 20px; */
     
     /* margin-left: 2px; */
@@ -36,5 +40,6 @@ img{
 @media screen and (max-width:1000px) {
     .products{
         padding-top: 15%;
+        /* margin-left: -101%; */
     }
 }
